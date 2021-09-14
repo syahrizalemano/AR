@@ -9,7 +9,7 @@ import traceback
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 from helpers.database import db, Database, dcmdb
-from config import LOG_CHANNEL, BROADCAST_AS_COPY, GROUP_SUPPORT, OWNER
+from config import LOG_CHANNEL, BROADCAST_AS_COPY, GROUP_SUPPORT
 
 async def handle_user_status(bot, cmd):
     chat_id = cmd.chat.id
